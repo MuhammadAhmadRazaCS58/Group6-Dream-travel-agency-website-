@@ -18,16 +18,8 @@ The website is designed to showcase travel services, destinations, and allow use
 
 ## 📂 Project Structure
 Dream-Travel-Agency
-│── index.html
-│── about us.html
-│── contact us.html
-│── blog page.html
-│── gallery.html
-│── style.css
-│── aboutus style.css
-│── contactus style.css
-│── blog style.css
-│── gallery.css
+│── index.html │── about us.html │── contact us.html │── blog page.html │── gallery.html │── style.css 
+│── aboutus style.css  │── contactus style.css │── blog style.css │── gallery.css
 
 ## 🚀 How to Run the Project
 1. Download or clone the repository  
