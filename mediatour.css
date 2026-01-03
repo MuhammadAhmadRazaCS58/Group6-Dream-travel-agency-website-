@@ -1,0 +1,99 @@
+@media(max-width: 768px){
+    main{
+        justify-content: center;
+        gap: 2%;
+    }
+    article, #box1, #box2, #box3, #box4, #box5{
+        width:35%;
+        gap: 2%;
+        margin-left: 0%;
+        height: 100%;
+    }
+    #bottom{
+        margin-top: 80%;
+    }
+    #contact{
+        width: 10%;
+    }
+}
+@media(max-width: 426px){
+    main{
+        justify-content: center;
+        gap: 2%;
+    }
+    article, #box1, #box2, #box3, #box4, #box5{
+        width:65%;
+        gap: 2%;
+        margin-left: 0%;
+        height: 100%;
+    }
+    #bottom{
+        margin-top: 330%;
+    }
+    #contact{
+        width: 18%;
+        bottom: 65px;
+        right: 45%;
+    }
+    footer h2{
+       white-space: nowrap;
+       margin-right: 30%;
+    }
+}
+@media(max-width: 376px){
+    main{
+        justify-content: center;
+        gap: 2%;
+    }
+    article, #box1, #box2, #box3, #box4, #box5{
+        width:65%;
+        gap: 2%;
+        margin-left: 0%;
+        height: 100%;
+    }
+    #bottom{
+        margin-top: 370%;
+    }
+    #contact{
+        width: 20%;
+        bottom: 65px;
+        right: 45%;
+    }
+    footer h2{
+       white-space: nowrap;
+       margin-right: 40%;
+    }
+
+}
+@media(max-width: 321px){
+    header h2{
+        font-size: medium;
+    }
+    main{
+        justify-content: center;
+        gap: 2%;
+    }
+    article, #box1, #box2, #box3, #box4, #box5{
+        width:65%;
+        gap: 2%;
+        margin-left: 0%;
+        height: 100%;
+    }
+    #bottom{
+        margin-top: 422%;
+    }
+    #contact{
+        width: 25%;
+        bottom: 68px;
+        right: 45%;
+    }
+    footer h2{
+      margin-left: 15%;
+      width: 60%;
+      font-size: large;
+       
+    }
+
+}
+
+
