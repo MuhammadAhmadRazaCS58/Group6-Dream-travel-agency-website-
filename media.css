@@ -1,0 +1,39 @@
+@media(max-width: 768px){
+    main{
+        justify-content: center;
+        gap: 2%;
+    }
+    article, #box1, #box2, #box3, #box4, #box5{
+        width:40%;
+        gap: 2%;
+        margin-left: 0%;
+        height: 30%;
+    }
+
+}
+
+@media (max-width:426px) {
+    header{
+        font-size: 80%;
+    }
+article, #box1, #box2, #box3, #box4, #box5{
+    height: 15%;
+    width: 50%;
+}
+}
+@media (max-width:376px){
+    article, #box1, #box2, #box3, #box4, #box5{
+    width: 60%;
+}
+
+}
+@media (max-width:376px){
+    article, #box1, #box2, #box3, #box4, #box5{
+    width: 60%;
+    }
+}
+@media (max-width:376px){
+    article, #box1, #box2, #box3, #box4, #box5{
+    width: 70%;
+    }
+}
