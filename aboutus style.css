@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #4b246a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1 span{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+nav{
+    margin-top: 15px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+nav a.active{
+    border-bottom: 2px solid orange;
+}
+.hero,
+.transport,
+.travel {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.hero img,
+.transport img,
+.travel img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
+}
+.why,
+.about {
+    padding: 40px 10%;
+}
+.why h2,
+.about h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.why p{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #555;
+}
+article{
+    margin-bottom: 20px;
+}
+article h3{
+    color: #333;
+}
+article p{
+    color: #666;
+}
+.about p{
+    text-align: center;
+    color: #555;
+    margin-bottom: 15px;
+}
+footer{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
