@@ -65,7 +65,7 @@ For a deeper dive into our development process, please refer to our project docu
 **Muhammad Ahmad Raza & with team of 4 othere** 
 
 ## Contributors
-- [Ahmad Raza](https://github.com/MuhammadAhmadRazaCS58)
+- [Muhammad Ahmad Raza](https://github.com/MuhammadAhmadRazaCS58)
 - [Awais Aleem](https://github.com/iawaisaleem)  
 - [Ahmed Bilal](https://github.com/AhmedBIlal207) 
 - [Rana Abdullah](https://github.com/abdullahrana97)
