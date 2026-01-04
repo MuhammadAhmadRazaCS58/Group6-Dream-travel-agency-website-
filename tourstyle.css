@@ -1,212 +1,136 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
-html,body{
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-}
-body{
-    background-color: #f4f7fb;
-}
-header{
-    top: 0%;
-    height: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #0d47a1;
-}
-header h2{
-    color: White;
-}
-header p{
-    color: white;
-}
-section h2{
-    margin-top: 1%;
-    text-align: center;
-    color: blue;
 
+/* BODY */
+body {
+  background: linear-gradient(135deg, #df4a81, #c430d7, #b03ad8);
+  color: white;
 }
-main{
-    margin-top: 2%;
-    align-self: flex-start;
-    height:50%;
-    width:100%;
-    gap: 2%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+
+/* HEADER */
+.top-header {
+  text-align: center;
+  padding: 60px 20px;
+  background: rgba(255,255,255,0.08);
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
 }
-article{
-    align-self: flex-start;
-    height:100%;
-    width:20%;
-    margin-left: 10%;
-    background-color:  #1565c0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    border-radius: 5%;
-    margin-bottom: 2%;
-    position: relative;
+.top-header h1 {
+  font-size: 2.6rem;
 }
-article img{
-    width:100%;
-    height:50%;
-    display: block; 
-    flex-wrap: wrap;
-    border-radius: 5%;
+.top-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
 }
-article h3{
-    margin-left: 2%;
-    color: white;
+
+/* MAIN */
+.package-main {
+  padding: 50px 20px;
 }
-article p{
-    color: white;
-    margin-left: 2%;
+
+/* GRID */
+.package-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
 }
-article h2{
-    color: orange;
+
+/* PACKAGE BOX */
+.package-box {
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(10px);
+  border-radius: 22px;
+  padding: 30px;
+  border: 2px solid rgba(255,255,255,0.2);
+  position: relative;
+  transition: transform 0.4s, box-shadow 0.4s;
 }
-figure{
-    background-color: #ff9800;
-    height: 10%;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    border-radius: 5%;
-    position:absolute;
-    bottom: 10px;
-    right: 10px;
+
+.package-box:hover {
+  transform: translateY(-12px) scale(1.04);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.35);
 }
-figure h5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 11%;
-    color: white;
+
+/* POPULAR */
+.package-box.popular {
+  border: 2px solid #ffd1ff;
 }
-figure:hover{
-    background-color: red;
-    cursor: pointer;
-    transform: scale(1.15);
-    box-shadow: 0 10px 20px rgba(253, 2, 2, 0.838);
+
+.badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: linear-gradient(135deg, #ff79c6, #ffd1ff);
+  color: #000;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
-figure a{
-    text-decoration: none;
-    color: inherit;
+
+/* TEXT */
+.package-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
-#box1{
-    align-self: flex-start;
-    height:100%;
-    width:20%;
-    background-color:  #1565c0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffd1ff;
+  margin-bottom: 15px;
 }
-#box2{
-    align-self: flex-start;
-    height:100%;
-    width:20%;
-    background-color:  #1565c0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+
+/* LIST */
+.package-box ul {
+  list-style: none;
+  margin-bottom: 20px;
 }
-#box3{
-    align-self: flex-start;
-    height:100%;
-    width:20%;
-    background-color:  #1565c0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+.package-box ul li {
+  margin: 8px 0;
+  font-size: 0.95rem;
+  opacity: 0.95;
 }
-#box4{
-    align-self: flex-start;
-    height:100%;
-    width:20%;
-    background-color:  #1565c0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-decoration: none;
+
+/* BUTTON */
+.book-btn {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #df4a81, #c430d7);
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none; /* 🔥 THIS REMOVES BLUE + UNDERLINE */
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
-#box5{
-    align-self: flex-start;
-    height:100%;
-    width:20%;
-    background-color:  #1565c0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-decoration: none;
-}
-#bottom h2{
-    margin-top: 45%;
-    text-align: center;
-    color: blue;
-}
-#row3{
-    margin-top: 2%;
-    align-self: flex-start;
-    height:30%;
-    width:100%;
-    gap: 1%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-#row3 img{
-    width: 100%;
-}
-footer{
-    margin-top: 2%;
-    width: 100%;
-    height: 40%;
-    background-color: #0288d1;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-footer img{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-footer h2{
-    height: 20%;
-    width: 50%;
-    position: relative;
-   color: white;
-   z-index: 2;
-}
-#contact{
-    position: absolute;
-    height: 12%;
-    width: 8%;
-    background-color: orange;
-    justify-content: center;
-    text-align: center;
-    border-radius: 5%;
-    bottom: 35%;
-    right: 48%;
-}
-#contact:hover{
-    background-color: red;
-    cursor: pointer;
+
+.book-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 
 
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 30px 20px;
+  background: rgba(255,255,255,0.08);
+  font-size: 0.9rem;
+}
 
+/* MOBILE */
+@media (max-width: 480px) {
+  .top-header h1 {
+    font-size: 2rem;
+  }
+  .price {
+    font-size: 1.7rem;
+  }
+}
