@@ -32,8 +32,14 @@ This project is created for:
 - Practicing HTML & CSS
 - Academic and portfolio use  
 
-## 🌐 Live Preview
-Coming soon...
+
+## 📑 Project Documents
+
+- 📊 [Project Presentation (PPT)](https://github.com/MuhammadAhmadRazaCS58/Group6-Dream-travel-agency-website-/raw/main/website%20presentation.pptx)
+- 📄 [Project Report (Word)](https://github.com/MuhammadAhmadRazaCS58/Group6-Dream-travel-agency-website-/raw/main/website%20document.docx)
+- 📈 [Project Data (Excel)](https://github.com/MuhammadAhmadRazaCS58/Group6-Dream-travel-agency-website-/raw/main/website%20exell.xlsx)
+
+
 
 
 ## 👤 Author
