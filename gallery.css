@@ -2,316 +2,125 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    /* it keeps ths width on exact screen */
-}
-
-html, body {
-    width: 100%;
-background-color: #F8FAFC;
-overflow-x: hidden;  
- background-color: #F8FAFC;
-
-
 }
 
 
-
-
-
-
-
+body {
+    background: linear-gradient(135deg, #df4a81, #c430d7, #b03ad8);
+    overflow-x: hidden;
+}
 
 
 .top-header {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 12%; /* Fixed height */
-    padding: 5%;
     text-align: center;
-    background: linear-gradient(135deg, #0a3cff, #00c6ff);
-    color: white; 
-}
-
-
-
-
-
-
-.top1{
-font-size:x-large;
-}
-
-
-
-
-@media (max-width:1100px)
-{
-
- 
-.top1{
-font-size:large;
-}
-
-}
-
-
-
-
-
-@media (max-width:800px)
-{
-
-
-.top-header {
-   position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 18%; /* Fixed height for this so that text canit be changed */
-    padding: 5%;
-    text-align: center;
-    background: linear-gradient(135deg, #0a3cff, #00c6ff);
+    padding: 50px 20px;
+    background: rgba(255, 255, 255, 0.05);
     color: white;
     
-}
-
-
-
-
-.top1{
-font-size:medium;
-}
-
-}
-
-
-
-
-
-
-
-@media (max-width:600px)
-{
-
-
-.top-header {
-   position: relative;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 20%; /* Fixed height for this so that text canit be changed */
-    padding: 5%;
+    z-index: 1000;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
+.top-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.top-header p {
+    font-size: 1.2rem;
+}
+
+
+.continent {
     text-align: center;
-    background: linear-gradient(135deg, #0a3cff, #00c6ff);
-    color: white;
-    
+    padding: 60px 20px;
+    margin-bottom: 60px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
-
-
-
-
-.top1{
-font-size:medium;
+.continent h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 }
-
+.continent p {
+    font-size: 1.1rem;
+    color: #fce7ff;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:460px)
-{
-
-
-
-.top-header {
-   position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 17%; /* Fixed height for this so that text canit be changed */
-    padding: 5%;
-    text-align: center;
-    background: linear-gradient(135deg, #0a3cff, #00c6ff);
-    color: white;
-    
-}
-.top1{
-font-size:medium;
-}
-
-}
-
-
-
-
-
-
-
-/* BODY PADDING (Pushes content below fixed header) */
-#main {
-    padding-top: 100px; 
-}
-
-
-
-/* for easy we paste it in css if we do in html it make a separate object it disturbs all page */
-.asia {
-    margin-bottom: 100px; /*Space between each continent block */
-    text-align: center;
-    background-image: url('images/asia.jpeg');
-    
-    /* Ensures the image fills the section nicely */
-    background-size: cover;
-    background-position: center;
-    padding: 5%;
-    background-color: rgba(255, 255, 255,0.5);
-    /* 0.5 means tranpency  */
-    background-blend-mode: overlay;
-}
-
-.Europe {
-    margin-bottom: 100px; /* Space between each continent block */
-    text-align: center;
-    background-image: url('images/Europe.jpeg');
-    
-    /* Ensures the image fills the section nicely */
-    background-size: cover;
-    background-position: center;
-    padding: 5%;
-    background-color: rgba(255, 255, 255,0.5);
-    /* 0.5 means tranpency  */
-    background-blend-mode: overlay;
-}
-
-
-.africa {
-    margin-bottom: 100px; /* Space between each continent block */
-    text-align: center;
-    background-image: url('images/africa.jpeg');
-    
-    /* Ensures the image fills the section nicely */
-    background-size: cover;
-    background-position: center;
-    padding: 5%;
-    background-color: rgba(255, 255, 255,0.5);
-    /* 0.5 means tranpency  */
-    background-blend-mode: overlay;
-}
-
-.america{
-    margin-bottom: 100px; /* Space between each continent block */
-    text-align: center;
-    background-image: url('images/america.jpeg');
-    
-    /* Ensures the image fills the section nicely */
-    background-size: cover;
-    background-position: center;
-    padding: 5%;
-    background-color: rgba(255, 255, 255,0.5);
-    /* 0.5 means tranpency  */
-    background-blend-mode: overlay;
-}
-
-
-.Australia{
-    margin-bottom: 100px; /* Space between each continent block */
-    text-align: center;
-    background-image: url('images/australia.jpeg');
-    
-    /* Ensures the image fills the section nicely */
-    background-size: cover;
-    background-position: center;
-    padding: 5%;
-    background-color: rgba(255, 255, 255,0.5);
-    /* 0.5 means tranpency  */
-    background-blend-mode: overlay;
-}
-
-
 
 
 .card-stack-area {
-    position: relative; 
-    height: 200px;      
-    width: 120px;       
-    margin: 40px auto;  
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .card {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 200px;
-    width: 150px;
-    border: 2px solid lightskyblue; 
+    width: 200px;
+    height: 250px;
     border-radius: 20px;
-    background: white;
+    overflow: hidden;
+    border: 2px solid #df4a81;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(5px);
+    transition: transform 0.3s, box-shadow 0.3s, border 0.3s;
 }
-#card1{
-     rotate: -3deg;
-       z-index: 4;
-}
-#card1:hover{
-     z-index: 100;
-    cursor:pointer;
-}
-
-#card2{
-     rotate: -8deg;
-       z-index: 3;
-}
-#card2:hover{
-     z-index: 100;
-     cursor:pointer;
-}
-#card3{
-     
-    rotate: -16deg;
-      z-index: 2;
-}
-#card3:hover{
-     z-index: 100;
-     cursor:pointer;
-}
-
-#card4{
-     rotate: -24deg;
-       z-index: 1;
-     
-}
-#card4:hover{
-     z-index: 100;
-     cursor:pointer;
-}
-img {
+.card img {
+    width: 100%;
     height: 100%;
-    width: 100%;
     object-fit: cover;
-    border-radius: 18px;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+    border: 2px solid #c430d7;
+}
+.card:hover img {
+    transform: scale(1.05);
 }
 
-.footer
-{
-    width: 100%;
-    height: 10%;
- text-align: center;
- color:white;
-     background: linear-gradient(135deg, #0a3cff, #00c6ff); 
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 30px 20px;
+    background: rgba(255,255,255,0.05);
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+.footer p {
+    margin-top: 5px;
 }
 
+
+@media(max-width:768px){
+    .top-header h1 {
+        font-size: 2rem;
+    }
+    .continent h2 {
+        font-size: 1.5rem;
+    }
+    .card {
+        width: 150px;
+        height: 200px;
+    }
+}
+@media(max-width:480px){
+    .top-header h1 {
+        font-size: 1.5rem;
+    }
+    .continent h2 {
+        font-size: 1.2rem;
+    }
+    .card {
+        width: 120px;
+        height: 160px;
+    }
+}
