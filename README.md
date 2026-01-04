@@ -1,16 +1,16 @@
-# Group6-Dream-travel-agency-website-
+# Group6-AICTL(FINAL PROJECT)-Dream travel agency(website)
 # 🌍 Dream Travel Agency
 
 Dream Travel Agency is a simple and responsive travel website created using **HTML and CSS**.  
 The website is designed to showcase travel services, destinations, and allow users to contact the agency easily.
 
 ## 📌 Features
-- Home page with travel theme design  
-- About Us page  
-- Blog / Gallery section  
+- Home page with travel theme design    
+- Gallery section  
 - Contact Us page  
 - Clean and responsive layout  
-- Simple navigation menu  
+- Simple navigation menu
+- Responsive
 
 ## 🛠️ Technologies Used
 - HTML5  
