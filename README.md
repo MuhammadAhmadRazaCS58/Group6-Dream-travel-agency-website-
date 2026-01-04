@@ -43,9 +43,9 @@ Site Structure & Navigation
   
 For a deeper dive into our development process, please refer to our project documentation:
 
-* 📊 **[Strategic Presentation (PPT)](https://github.com/MuhammadAhmadRazaCS58/Group6-Dream-travel-agency-website-/raw/main/website%20presentation.pptx)**
-* 📄 **[Comprehensive Project Report](https://github.com/MuhammadAhmadRazaCS58/Group6-Dream-travel-agency-website-/raw/main/website%20document.docx)**
-* 📈 **[Data Analysis & Logistics](https://github.com/MuhammadAhmadRazaCS58/Group6-Dream-travel-agency-website-/raw/main/website%20exell.xlsx)**
+*  **[Strategic Presentation (PPT)](https://github.com/MuhammadAhmadRazaCS58/Group6-Dream-travel-agency-website-/raw/main/website%20presentation.pptx)**
+*  **[Comprehensive Project Report](https://github.com/MuhammadAhmadRazaCS58/Group6-Dream-travel-agency-website-/raw/main/website%20document.docx)**
+*  **[Data Analysis & Logistics](https://github.com/MuhammadAhmadRazaCS58/Group6-Dream-travel-agency-website-/raw/main/website%20exell.xlsx)**
 
 
 ---
@@ -176,6 +176,7 @@ Future Improvements
 - [Ahmed Bilal](https://github.com/AhmedBIlal207) 
 - [Rana Abdullah](https://github.com/abdullahrana97)
 - [Ahsan Abdullah](https://github.com/ahsan034844-oss)
+
   ---
   Course Information
 
