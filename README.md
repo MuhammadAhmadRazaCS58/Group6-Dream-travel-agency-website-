@@ -62,7 +62,7 @@ For a deeper dive into our development process, please refer to our project docu
 
 ## 👤 Lead Developer
 
-**Muhammad Ahmad Raza**
-*Specialization: Front-End Web Development*
+**Muhammad Ahmad Raza & with team of 4 othere** 
+
 
 > **Note:** This project was developed strictly for educational and portfolio purposes as part of the AICTL curriculum.
