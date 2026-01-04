@@ -68,7 +68,7 @@ body {
 }
 .info-card p {
     color: #fce7ff;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.5;
 }
 
@@ -148,3 +148,4 @@ body {
         font-size: 0.9rem;
     }
 }
+
